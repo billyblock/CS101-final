@@ -1,0 +1,35 @@
+/* just follow the class to the class name in the html
+    KEEP THIS FILE HERE */
+
+h1.center {
+    text-align: center;
+}
+
+img {
+    margin: 5px;
+    padding: 5px;
+    opacity: 80%;
+    transition: opacity 1s, scale 1s ;
+}
+
+img:hover {
+    opacity: 100%;
+    scale: 1.2;
+}
+
+div.background {
+    background-color: #fafafa;
+    padding: 10px;
+    margin: auto;
+    width: 275px;
+    height: 510px;
+    box-shadow: 3px 3px 3px 3px #888888;
+}
+
+p {
+    text-align: center;
+    clear: both;
+    margin: 25px;
+    padding: 25px;
+    color: #444444;
+}

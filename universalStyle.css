@@ -1,0 +1,71 @@
+/*
+USE THIS FILE FOR THE MENU STYLE IF YOU USE IT
+If we use a seperate font, change it here or delete it from here
+and link the main one in my html files.
+!DO NOT CHANGE ANYTHING ELSE IN THIS FILE!
+*/
+
+/* If anything about the font changes, make sure my pages style 
+    fit correctly. */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-size: 18px;
+    background-color: #fff8ea;
+    padding: 0;
+    margin: 0;
+}
+
+/* Use this for the list that holds the different pages. */
+ul.menuBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #594545;
+}
+/* Use this for the List Items */
+li.menuItem {
+    float: left;
+}
+
+/* Use this for the Anchor Tags inside of the List items*/
+li a.menuItem {
+    display: block;
+    color: #fff8ea;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Wrap the list items you want to move in a div and use this to push all
+   of those list items to the right of the menu bar*/
+div.right {
+    float: right;
+}
+
+/* Use this on the anchor tags inside of the list items for a hover color*/
+li a.menuItem:hover {
+    background-color: #352929;
+}
+
+/* ONLY USE THIS IF YOU WANT TO CENTER 2 OR MORE THINGS SIDE BY SIDE*/
+/* Wrap everything with a div, then give it this class*/
+div.parentDivCenter {
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Wrap each individual thing with a div and give it this class*/
+/* !IN YOUR OWN CSS!, change the width style to 100 divided by the amount of things you want to center*/
+/* ex: 4 things centered side by side, width: 25%;*/
+/* ex: 3 things centered side by side, width: 33%;*/
+/* ex: 2 things centered side by side, width: 50%; (dont change*/
+div.childDivCenter {
+    text-align: center;
+    float: left;
+    width: 50%;
+}

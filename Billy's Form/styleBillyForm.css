@@ -1,0 +1,52 @@
+/* just follow the class to the class name in the html
+    KEEP THIS FILE HERE */
+
+h1{
+    display: block;
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #594545;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input {
+    height: 25px;
+    width: 250px;
+    font-size: 18px;
+}
+
+input.smaller {
+    width: 30%;
+}
+
+div.form {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea{
+    font-size: 18px;
+}
+
+span{
+    color: red;
+}
+
+p.center {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Billy's Form</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Billy Block">
+    <meta name="description" content="This is Billy's form!">
+    <meta name="keywords" content="billy, form, blah">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styleBillyForm.css">
+    <link rel="stylesheet" href="../universalStyle.css">
+    <!--See "Billy's JavaScript/makeASquare.html" for instructions on my style-->
+    <script type="text/javascript" src="formScript.js"></script>
+
+</head>
+
+<body>
+    <!--Menu Bar, Needs unviersalStyle.css-->
+    <ul class="menuBar">
+        <li class="menuItem"><a class="menuItem" href="../About%20Billy/aboutBilly.html">Home</a></li>
+        <div class="right">
+            <li class="menuItem"><a class="menuItem" href="../About%20Billy/aboutBilly.html">About Me</a></li>
+            <li class="menuItem"><a class="menuItem" href="../Billy's%20Image%20Gallery/imgGal.html">Images</a></li>
+            <li class="menuItem"><a class="menuItem" href="../Billy's%20JavaScipt/makeASquare.html">Make a Square</a></li>
+            <li class="menuItem"><a class="menuItem" href="forming.html">Support</a></li>
+        </div>
+    </ul>
+    <!--Title-->
+    <h1>Support Request</h1>
+    <form action="https://google.com/search" target="_blank" method="get">
+        <div class="form">
+            <!--Name Section-->
+            <label for="firstName">Full Name <span>*</span></label> <br>
+            <input class="smaller" id="firstName" type="text" name="firstName" placeholder="First Name" required>
+            <input class="smaller" id="lastName" type="text" name="lastName" placeholder="Last Name" required> <br><br>
+
+            <!--Email-->
+            <label for="email">E-mail <span>*</span></label> <br>
+            <input id="email" type="email" name="email" placeholder="myname@example.com" required> <br><br>
+
+            <!--Describe the issue, This part gets sent to google-->
+            <label for="search">Please describe your issue. <span>*</span></label> <br>
+            <textarea id="search" name="q" rows="8" cols="50" required></textarea> <br><br>
+
+            <!--Date of the issue-->
+            <label for="issue">When did this issue first appear? <span>*</span></label> <br>
+            <input id="issue" type="date" name="issue" required> <br><br>
+
+            <!--Submit and Reset buttons-->
+            <input class="smaller" type="submit" value="Submit" onclick="showMessage();">
+            <input class="smaller" type="reset" onclick="clearMessage();">
+        </div>
+    </form>
+    <!--This is where the text shows when it sends you to google.-->
+    <p id="message" class="center"></p>
+</body>
+
+</html>

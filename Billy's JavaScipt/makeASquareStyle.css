@@ -1,0 +1,58 @@
+/* just follow the class to the class name in the html
+    KEEP THIS FILE HERE */
+
+p.use {
+    font-weight: bold;
+    display: block;
+    clear: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    clear:both;
+    margin: auto;
+    margin-top: 40%
+}
+
+button.changeSymbolButton {
+    margin-top: 5px;
+}
+
+div.changeSymbol {
+    margin-top: 11%;
+}
+
+div.parentDivCenter {
+    margin-top: 50px;
+    width: 85%;
+}
+
+div.childButtonCenter {
+    text-align: center;
+    float: left;
+    width: 33%;
+    margin-top: 30px;
+}
+
+p.center {
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+div.border{
+    margin-top: 20px;
+    border: 5px solid #594545;
+    padding: 5px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}

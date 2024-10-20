@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Billy's JavaScript</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Billy Block">
+    <meta name="description" content="Make a square!">
+    <meta name="keywords" content="make, a, square">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../universalStyle.css">
+    <!--This is my universalStyle, 
+    if we add our own css, feel free to put our group style changes below.
+    Alternatively, you can put my universalStyle into our main css and change 
+    the universalStyle.css to our groups css -->
+    <link rel="stylesheet" href="makeASquareStyle.css">
+    <!--Keep this css-->
+    <script type="text/javascript" src="jsScript.js"></script>
+    <!--Keep this js or add into a main one and put that in the src-->
+</head>
+
+<body>
+    <!--Menu Bar, Needs unviersalStyle.css-->
+    <ul class="menuBar">
+        <li class="menuItem"><a class="menuItem" href="../About%20Billy/aboutBilly.html">Home</a></li>
+        <div class="right">
+            <li class="menuItem"><a class="menuItem" href="../About%20Billy/aboutBilly.html">About Me</a></li>
+            <li class="menuItem"><a class="menuItem" href="../Billy's%20Image%20Gallery/imgGal.html">Images</a></li>
+            <li class="menuItem"><a class="menuItem" href="makeASquare.html">Make a Square</a></li>
+            <li class="menuItem"><a class="menuItem" href="../Billy's%20Form/forming.html">Support</a></li>
+        </div>
+    </ul>
+    <!--"Make a Square" and the width and height input-->
+    <h1>Make a Square</h1>
+    <div class="border">
+        <div class="parentDivCenter">
+            <div class="childDivCenter">
+                <label for="input1">Width</label> <br>
+                <input id="input1" type="number">
+            </div>
+            <div class="childDivCenter">
+                <label for="input2">Height</label> <br>
+                <input id="input2" type="number">
+            </div>
+        </div>
+        <!--Three buttons-->
+        <div class="parentDivCenter">
+
+            <div class="childButtonCenter">
+                <button onclick="makeSquare();">Make Square</button>
+            </div>
+            <div class="childButtonCenter">
+                <div class="changeSymbol">
+                    <label for="symbol">What would you like to change the symbol to?</label>
+                    <input type="text" id="symbol">
+                    <button class="changeSymbolButton" onclick="changeSymbol();">Change Symbol</button> <br>
+                </div>
+            </div>
+            <div class="childButtonCenter">
+                <button onclick="cycleSymbol();">Cycle Symbol</button> <br>
+            </div>
+            <!--Explination on how to use the javascript/make a square page-->
+            <p class="use">Please enter the width in the first box and the height in the second, these inputs will
+                create a
+                square.
+                Then, feel free to put in your own symbol or you can even cycle through these: *, $, #, &, @.
+            </p>
+        </div>
+    </div>
+    <!--This is where the output will go for the symbols/square-->
+    <p class="center" id="square"></p>
+</body>
+
+</html>

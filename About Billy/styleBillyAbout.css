@@ -1,0 +1,31 @@
+/* just follow the class to the class name in the html
+    KEEP THIS FILE HERE */
+
+img {
+    border: 4px solid #594545;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.salutBilly {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    text-align: center;
+}
+
+div.parentDivCenter {
+    width: 70%;
+}
+
+div.aboutMe {
+    margin-left: auto;
+    border: 4px solid #594545;
+    width: 500px;
+    height: 666px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px #888888;
+}
+p.desc {
+    word-spacing: 3px;
+    line-height: 1.4;
+    padding: 10% 50px;
+}
